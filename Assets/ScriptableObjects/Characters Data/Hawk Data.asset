@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1fd1cbbe4c133c4783e15279ae99318, type: 3}
+  m_Name: Hawk Data
+  m_EditorClassIdentifier: Assembly-CSharp::OPHIO.Core.CharacterData
+  characterName: Hawk
+  subjectNumber: '#4'
+  shortLore: "Hawk ka nervous system stable hyphal integration se guzra hai jo electricity ke zariye objects manipulate karne ki ability deta hai. Stored charge melee stats scale karta hai."
+  portrait: {fileID: 0}
+  maxHealth: 120
+  maxEnergy: 100
+  energyRegen: 5
+  moveSpeed: 5
+  sprintMultiplier: 1.6
+  baseMeleeDamage: 20
+  primaryDamageType: 2
+  passiveName: Living Conductor
+  passiveDesc: "Hawk passively ambient electrical energy aur choti electrical attacks absorb karta hai. Stored charge attack speed aur melee damage increase karta hai."
+  abilityPool:
+  - {fileID: 11400000, guid: 9e397fa064c601744b8e0d7c3b90c32c, type: 2}
+  - {fileID: 11400000, guid: 1d4c1ccdd239e4b4b8f1da1f6b4a85d9, type: 2}
+  - {fileID: 11400000, guid: e870b8b80cdc17b4e92f59f25bc82028, type: 2}
+  - {fileID: 11400000, guid: 04728d2c4d004c145b866e3ef55073d8, type: 2}
+  superAbility: {fileID: 11400000, guid: 7ca6a099318df694ab6ca79d6cbe12f0, type: 2}
+  abilityActivateSound: {fileID: 8300000, guid: f2e58036cd78a674e994db153e191210, type: 3}
+  hurtSound: {fileID: 8300000, guid: 9dd2d71c0c95f9d46aa813a5ea65619d, type: 3}
+  deathSound: {fileID: 8300000, guid: 820b4795221a59a4f84bdbb8bc6957e9, type: 3}

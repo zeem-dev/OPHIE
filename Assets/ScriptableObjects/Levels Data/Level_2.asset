@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86fa28e670e49c34db215f73937eab4f, type: 3}
+  m_Name: Level_2
+  m_EditorClassIdentifier: Assembly-CSharp::OPHIO.Arena.LevelConfig
+  levelName: The Warden
+  levelNumber: 2
+  description: "Defeat Warden Alpha"
+  thumbnail: {fileID: 0}
+  waves:
+  - {fileID: 11400000, guid: cbb318b07bd317f429a45b9b0ab70add, type: 2}
+  - {fileID: 11400000, guid: 2a32dba82ace52b4198ea2feae89ecc2, type: 2}
+  - {fileID: 11400000, guid: 3466f16803f86ba4eb2d04822a53eb95, type: 2}
+  objective:
+    type: 2
+    targetWaveCount: 3
+    displayText: Defeat Warden Alpha
+    isCompleted: 0
+    currentProgress: 0
+    maxProgress: 0
+  timeLimit: 0
+  scoreGoalBronze: 800
+  scoreGoalSilver: 1500
+  scoreGoalGold: 3000
+  requiredLevel: 1

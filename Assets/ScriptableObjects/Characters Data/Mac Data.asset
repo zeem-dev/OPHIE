@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1fd1cbbe4c133c4783e15279ae99318, type: 3}
+  m_Name: Mac Data
+  m_EditorClassIdentifier: Assembly-CSharp::OPHIO.Core.CharacterData
+  characterName: Mac
+  subjectNumber: '#30'
+  shortLore: "Mac energy absorb, store, amplify, aur redirect kar sakta hai, aur stored energy ko high tactical defense aur performance stats mein channel karta hai."
+  portrait: {fileID: 0}
+  maxHealth: 150
+  maxEnergy: 120
+  energyRegen: 4
+  moveSpeed: 4.8
+  sprintMultiplier: 1.5
+  baseMeleeDamage: 18
+  primaryDamageType: 3
+  passiveName: Energy Reserves
+  passiveDesc: "Damage absorption converts incoming hits into energy. Stored energy increases damage resistance, healing, and sprint speed proportionally."
+  abilityPool:
+  - {fileID: 11400000, guid: aa1d1085f16402c42bf37348a98edcd5, type: 2}
+  - {fileID: 11400000, guid: ba00415d2d10f5345ba22a4b903b9947, type: 2}
+  - {fileID: 11400000, guid: ebc51d374d0722b4497cf675e7b6034a, type: 2}
+  - {fileID: 11400000, guid: abcf5e90474fa2a4298526c3fadbf527, type: 2}
+  - {fileID: 11400000, guid: 9b1ed2c9e5699a34e9acbfc136ae142e, type: 2}
+  superAbility: {fileID: 11400000, guid: 36c147a5c28470747aa46242d05a3392, type: 2}
+  abilityActivateSound: {fileID: 8300000, guid: 50181d03f42034b4da3a8c48ce086e2d, type: 3}
+  hurtSound: {fileID: 8300000, guid: 9dd2d71c0c95f9d46aa813a5ea65619d, type: 3}
+  deathSound: {fileID: 8300000, guid: 820b4795221a59a4f84bdbb8bc6957e9, type: 3}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc60962e40c568640a66d078da8f5833, type: 3}
+  m_Name: Ability Total Overload (Super)
+  m_EditorClassIdentifier: Assembly-CSharp::OPHIO.Core.AbilityData
+  abilityName: Total Overload
+  description: "Hawk releases all stored electrical charge in a massive 360-degree shockwave. Stuns all shocked enemies for 3s and grants a brief overloaded stat boost."
+  icon: {fileID: 0}
+  category: 1
+  baseDamage: 120
+  damageType: 2
+  statusChance: 1
+  statusStacks: 3
+  targeting: 2
+  range: 5
+  radius: 8
+  coneAngle: 60
+  energyCost: 80
+  cooldown: 30
+  animTrigger: TotalOverload
+  castDuration: 0.5
+  vfxPrefab: {fileID: 3157370685969289855, guid: 662372284ddeee54fad3c2462587922e, type: 3}
+  vfxOffset: {x: 0, y: 0, z: 0}
+  activationSound: {fileID: 8300000, guid: 85032414a76e0b347bfff421ad0e27e8, type: 3}

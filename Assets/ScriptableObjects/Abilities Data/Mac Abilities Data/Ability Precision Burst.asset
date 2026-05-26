@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc60962e40c568640a66d078da8f5833, type: 3}
+  m_Name: Ability Precision Burst
+  m_EditorClassIdentifier: Assembly-CSharp::OPHIO.Core.AbilityData
+  abilityName: Precision Burst
+  description: Channels stored energy into a single, high-power precision rifle shot
+    that pierces enemy defenses.
+  icon: {fileID: 0}
+  category: 0
+  baseDamage: 50
+  damageType: 3
+  statusChance: 1
+  statusStacks: 1
+  targeting: 1
+  range: 5
+  radius: 3
+  coneAngle: 60
+  energyCost: 30
+  cooldown: 8
+  animTrigger: PrecisionBurst
+  castDuration: 0.5
+  vfxPrefab: {fileID: 8378503196372639160, guid: 6b78af83ad3cba343bd32c927fb29a9b, type: 3}
+  vfxOffset: {x: 0, y: 0, z: 0}
+  activationSound: {fileID: 8300000, guid: 097e8235e0162d64ba53da9ef4ab8d61, type: 3}

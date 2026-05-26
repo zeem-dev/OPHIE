@@ -1,0 +1,24 @@
+// ============================================================
+//  OPHIO — HawkCharacter (Start patch — melee hook fix)
+//  OnMeleeHit signature vHitInfo se match karta hai
+//  jo vMeleeManager.onDamageHit ka actual type hai.
+// ============================================================
+
+        private void Start()
+        {
+            CurrentCharge      = 0f;
+            _originalMoveSpeed = _tpc != null ? _tpc.freeSpeed.walkSpeed : 5f;
+            _originalAnimSpeed = _animator != null ? _animator.speed : 1f;
+
+            // onReceiveDamage + onDead via code
+            if (_tpc != null)
+            {
+                _tpc.onReceiveDamage.AddListener(OnDamageReceived);
+                _tpc.onDead.AddListener(OnDeadHandler);
+            }
+
+            // vMeleeManager.onDamageHit = vOnHitEvent = UnityEvent<vHitInfo>
+            var meleeManager = GetComponent<Invector.vMelee.vMeleeManager>();
+            if (meleeManager != null)
+                meleeManager.onDamageHit.AddListener(OnMeleeHitInfo);
+        }

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc60962e40c568640a66d078da8f5833, type: 3}
+  m_Name: Ability Heat Shield
+  m_EditorClassIdentifier: Assembly-CSharp::OPHIO.Core.AbilityData
+  abilityName: Heat Shield
+  description: Envelops the player in a fire shield, reducing incoming physical damage
+    and burning melee attackers.
+  icon: {fileID: 0}
+  category: 0
+  baseDamage: 10
+  damageType: 1
+  statusChance: 1
+  statusStacks: 1
+  targeting: 0
+  range: 5
+  radius: 3
+  coneAngle: 60
+  energyCost: 25
+  cooldown: 8
+  animTrigger: HeatShield
+  castDuration: 0.5
+  vfxPrefab: {fileID: 832352113462898708, guid: f39850acdddc07a478725949fc9327f3, type: 3}
+  vfxOffset: {x: 0, y: 0, z: 0}
+  activationSound: {fileID: 8300000, guid: d64e4487ce196b64b97f65f33819a0e0, type: 3}

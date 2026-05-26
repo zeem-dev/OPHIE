@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1fd1cbbe4c133c4783e15279ae99318, type: 3}
+  m_Name: Gust Data
+  m_EditorClassIdentifier: Assembly-CSharp::OPHIO.Core.CharacterData
+  characterName: Gust
+  subjectNumber: '#21'
+  shortLore: "Gust, Operation Ophio ka sabse chhota survivor, spore replication, clone network, spatial anchor, aur distributed consciousness utilize karta hai."
+  portrait: {fileID: 0}
+  maxHealth: 90
+  maxEnergy: 120
+  energyRegen: 6
+  moveSpeed: 5.2
+  sprintMultiplier: 1.7
+  baseMeleeDamage: 15
+  primaryDamageType: 4
+  passiveName: Clone Network
+  passiveDesc: "Clones aur anchors ke collapse hone par energy return hoti hai aur brief speed learning boost milta hai."
+  abilityPool:
+  - {fileID: 11400000, guid: 0817ae4899b32d54fa8d9416ebec6e12, type: 2}
+  - {fileID: 11400000, guid: aeddb9faa2f9caf4aacc22a2ac3dd315, type: 2}
+  - {fileID: 11400000, guid: 1f523f8d0c4d62a43b068e9a80f141d8, type: 2}
+  - {fileID: 11400000, guid: d049ba75b02b7914f9dbee440cea20e8, type: 2}
+  - {fileID: 11400000, guid: 7bed92e59ae30c54a944dfc51f1470c6, type: 2}
+  superAbility: {fileID: 11400000, guid: 024f9038f2cfcf7438dd11234ae956d4, type: 2}
+  abilityActivateSound: {fileID: 8300000, guid: c54d31c7df8cb7d4e80622a6f62f4507, type: 3}
+  hurtSound: {fileID: 8300000, guid: 9dd2d71c0c95f9d46aa813a5ea65619d, type: 3}
+  deathSound: {fileID: 8300000, guid: 820b4795221a59a4f84bdbb8bc6957e9, type: 3}

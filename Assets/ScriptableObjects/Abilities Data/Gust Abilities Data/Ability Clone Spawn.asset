@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc60962e40c568640a66d078da8f5833, type: 3}
+  m_Name: Ability Clone Spawn
+  m_EditorClassIdentifier: Assembly-CSharp::OPHIO.Core.AbilityData
+  abilityName: Clone Spawn
+  description: Replaces your last active spatial anchor with a fungal clone that
+    distracts enemies.
+  icon: {fileID: 0}
+  category: 0
+  baseDamage: 0
+  damageType: 4
+  statusChance: 1
+  statusStacks: 1
+  targeting: 0
+  range: 5
+  radius: 3
+  coneAngle: 60
+  energyCost: 15
+  cooldown: 8
+  animTrigger: CloneSpawn
+  castDuration: 0.5
+  vfxPrefab: {fileID: 3992058561654064293, guid: 13c990b8270c70b4c9f196019286028c, type: 3}
+  vfxOffset: {x: 0, y: 0, z: 0}
+  activationSound: {fileID: 8300000, guid: 15519c007e7ba5241802ac3ac4c4c53b, type: 3}

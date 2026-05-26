@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc60962e40c568640a66d078da8f5833, type: 3}
+  m_Name: Ability Neural Surge
+  m_EditorClassIdentifier: Assembly-CSharp::OPHIO.Core.AbilityData
+  abilityName: Neural Surge
+  description: "Temporarily overclocks the nervous system for 5s, increasing movement speed by 30%, attack speed by 40%, and improving dodge frames."
+  icon: {fileID: 0}
+  category: 0
+  baseDamage: 0
+  damageType: 0
+  statusChance: 1
+  statusStacks: 1
+  targeting: 0
+  range: 5
+  radius: 3
+  coneAngle: 60
+  energyCost: 25
+  cooldown: 15
+  animTrigger: NeuralSurge
+  castDuration: 0.5
+  vfxPrefab: {fileID: 1207179939759570, guid: 3cefa829969829542bf182f16e268213, type: 3}
+  vfxOffset: {x: 0, y: 0, z: 0}
+  activationSound: {fileID: 8300000, guid: f2e58036cd78a674e994db153e191210, type: 3}

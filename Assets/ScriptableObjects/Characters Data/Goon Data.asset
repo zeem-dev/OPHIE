@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1fd1cbbe4c133c4783e15279ae99318, type: 3}
+  m_Name: Goon Data
+  m_EditorClassIdentifier: Assembly-CSharp::OPHIO.Core.CharacterData
+  characterName: Goon
+  subjectNumber: '#7'
+  shortLore: "Dante, jise Goon (#7) kaha jaata hai, ek rare hyphae-integrated human hai jiska body thermal conversion ke liye organic combustion engine ban chuka hai."
+  portrait: {fileID: 0}
+  maxHealth: 120
+  maxEnergy: 100
+  energyRegen: 5
+  moveSpeed: 5.5
+  sprintMultiplier: 1.6
+  baseMeleeDamage: 25
+  primaryDamageType: 1
+  passiveName: Apex Ignition
+  passiveDesc: "Dante jitna zyada combat mein rehta hai, utna heat build-up hota hai. Max heat par fire damage, movement speed, aur splash radius increase hote hain."
+  abilityPool:
+  - {fileID: 11400000, guid: 148d7fc30c5c2e14faea238a7e7c67e2, type: 2}
+  - {fileID: 11400000, guid: ab7900ab0595206499b98006053acc16, type: 2}
+  - {fileID: 11400000, guid: d50fc225939341a4cbe568068d71e0f3, type: 2}
+  - {fileID: 11400000, guid: 46e4eda45222a5e47b8ff951f0bd3249, type: 2}
+  - {fileID: 11400000, guid: 5a87235749a0ed34d919ca00b9c8020e, type: 2}
+  superAbility: {fileID: 11400000, guid: 6fa2938b851947b4496d673466c4267f, type: 2}
+  abilityActivateSound: {fileID: 8300000, guid: 29ef1fd8a82190d4086450ffcce231f7, type: 3}
+  hurtSound: {fileID: 8300000, guid: 9dd2d71c0c95f9d46aa813a5ea65619d, type: 3}
+  deathSound: {fileID: 8300000, guid: 820b4795221a59a4f84bdbb8bc6957e9, type: 3}

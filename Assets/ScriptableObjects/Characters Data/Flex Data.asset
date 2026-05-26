@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1fd1cbbe4c133c4783e15279ae99318, type: 3}
+  m_Name: Flex Data
+  m_EditorClassIdentifier: Assembly-CSharp::OPHIO.Core.CharacterData
+  characterName: Flex
+  subjectNumber: '#5'
+  shortLore: "Subject #5, Flex, metallic assimilation aur structural mimicry ka brawler hai. Spinal core anchor uski bodily integrity aur survival maintain karta hai."
+  portrait: {fileID: 0}
+  maxHealth: 180
+  maxEnergy: 80
+  energyRegen: 3
+  moveSpeed: 4.5
+  sprintMultiplier: 1.4
+  baseMeleeDamage: 30
+  primaryDamageType: 0
+  passiveName: Spinal Core Anchor
+  passiveDesc: "Resilience threshold low HP (below 20%) par massive 50% damage reduction activate karti hai, complete bodily collapse prevent karti hai."
+  abilityPool:
+  - {fileID: 11400000, guid: a84675baea8c54144a9d9404dac9f580, type: 2}
+  - {fileID: 11400000, guid: f71d867c9d7608a4bbc0a32dac26d699, type: 2}
+  - {fileID: 11400000, guid: 1a732ecbfba7ea34db31b6c399ad149b, type: 2}
+  - {fileID: 11400000, guid: 70ee750587ffa994ea90f3ef40c7f95b, type: 2}
+  - {fileID: 11400000, guid: 1599dc306c77d484db589c7fa7d0c8c9, type: 2}
+  superAbility: {fileID: 11400000, guid: 5ff35ee769cfb5d4983f98e9b156e281, type: 2}
+  abilityActivateSound: {fileID: 8300000, guid: 04e7958f2a1963f48bda0503464ed37e, type: 3}
+  hurtSound: {fileID: 8300000, guid: 9dd2d71c0c95f9d46aa813a5ea65619d, type: 3}
+  deathSound: {fileID: 8300000, guid: 820b4795221a59a4f84bdbb8bc6957e9, type: 3}

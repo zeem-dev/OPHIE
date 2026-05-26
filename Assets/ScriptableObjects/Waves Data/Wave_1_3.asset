@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31b4efec773dc3a40a06080690207dfe, type: 3}
+  m_Name: Wave_1_3
+  m_EditorClassIdentifier: Assembly-CSharp::OPHIO.Arena.WaveConfig
+  waveName: "Wave 3 \u2014 Final "
+  announceText: Final Wave!
+  spawnGroups:
+  - poolKey: Enemy_Normal
+    prefab: {fileID: 8656877914776475448, guid: ae661e56a3ef70e45981bf62591a1a63, type: 3}
+    count: 3
+    spawnDelay: 0.4
+    spawnerIndex: 0
+  - poolKey: Enemy_Fast
+    prefab: {fileID: 5349200001931466464, guid: 010f0263d39d3b74790053f225e3c557, type: 3}
+    count: 2
+    spawnDelay: 0.3
+    spawnerIndex: 1
+  - poolKey: Enemy_Heavy
+    prefab: {fileID: 2520984532403176949, guid: aaa989addfd3e1a43b02dfbc2482c9b8, type: 3}
+    count: 1
+    spawnDelay: 0
+    spawnerIndex: 2
+  preWaveDelay: 4
+  isBossWave: 0

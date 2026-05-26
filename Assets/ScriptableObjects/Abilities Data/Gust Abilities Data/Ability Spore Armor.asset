@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc60962e40c568640a66d078da8f5833, type: 3}
+  m_Name: Ability Spore Armor
+  m_EditorClassIdentifier: Assembly-CSharp::OPHIO.Core.AbilityData
+  abilityName: Spore Armor
+  description: Compresses spores into a living fungal armor, reducing all incoming
+    damage by 50% for 5 seconds.
+  icon: {fileID: 0}
+  category: 0
+  baseDamage: 0
+  damageType: 4
+  statusChance: 1
+  statusStacks: 1
+  targeting: 0
+  range: 5
+  radius: 3
+  coneAngle: 60
+  energyCost: 25
+  cooldown: 12
+  animTrigger: SporeArmor
+  castDuration: 0.5
+  vfxPrefab: {fileID: 7033481524027210879, guid: 08c6c69422798d2499415b53f65b828d, type: 3}
+  vfxOffset: {x: 0, y: 0, z: 0}
+  activationSound: {fileID: 8300000, guid: d64e4487ce196b64b97f65f33819a0e0, type: 3}

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc60962e40c568640a66d078da8f5833, type: 3}
+  m_Name: Ability Energy Redirect
+  m_EditorClassIdentifier: Assembly-CSharp::OPHIO.Core.AbilityData
+  abilityName: Energy Redirect
+  description: Temporarily absorbs 100% of all incoming damage for 2.5s and directly
+    converts it into stored energy reserves.
+  icon: {fileID: 0}
+  category: 0
+  baseDamage: 0
+  damageType: 3
+  statusChance: 1
+  statusStacks: 1
+  targeting: 0
+  range: 5
+  radius: 3
+  coneAngle: 60
+  energyCost: 15
+  cooldown: 12
+  animTrigger: EnergyRedirect
+  castDuration: 0.5
+  vfxPrefab: {fileID: 1196366361853272, guid: 78afe2d2c6c430649b4c89b6b483db98, type: 3}
+  vfxOffset: {x: 0, y: 0, z: 0}
+  activationSound: {fileID: 8300000, guid: bfca528ec585a864ebff437b4ab6d80e, type: 3}

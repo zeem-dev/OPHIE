@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86fa28e670e49c34db215f73937eab4f, type: 3}
+  m_Name: Level_1
+  m_EditorClassIdentifier: Assembly-CSharp::OPHIO.Arena.LevelConfig
+  levelName: Training Grounds
+  levelNumber: 1
+  description: "Learn the basics \u2014 survive 3 waves of enemies"
+  thumbnail: {fileID: 0}
+  waves:
+  - {fileID: 11400000, guid: cbb318b07bd317f429a45b9b0ab70add, type: 2}
+  - {fileID: 11400000, guid: 2a32dba82ace52b4198ea2feae89ecc2, type: 2}
+  - {fileID: 11400000, guid: 61658b79833fa27439f07845b92c698b, type: 2}
+  objective:
+    type: 0
+    targetWaveCount: 3
+    displayText: Eliminate all enemies
+    isCompleted: 0
+    currentProgress: 0
+    maxProgress: 0
+  timeLimit: 0
+  scoreGoalBronze: 500
+  scoreGoalSilver: 1000
+  scoreGoalGold: 2000
+  requiredLevel: 0

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caab8e7b3a952bc43ba85fcbc940c1a3, type: 3}
+  m_Name: EnemyData Boss
+  m_EditorClassIdentifier: Assembly-CSharp::OPHIO.AI.EnemyTypeData
+  enemyName: Warden Alpha
+  type: 4
+  description: 
+  icon: {fileID: 0}
+  maxHealth: 800
+  detectionRange: 25
+  soundDetectionRange: 15
+  chaseSpeed: 3.5
+  attackRange: 3
+  attackDamage: 25
+  attackCooldown: 2
+  attackWindup: 0.5
+  attackRecovery: 0.6
+  attackDamageType: 2
+  baseAggression: 1
+  corpseDuration: 8
+  scoreValue: 1000
+  xpValue: 200
